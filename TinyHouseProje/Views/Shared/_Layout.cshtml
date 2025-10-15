@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Tiny House</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- ✅ FontAwesome ve Google Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #ffffff !important;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+            .navbar .nav-link {
+                color: #333 !important;
+                font-weight: 500;
+            }
+
+                .navbar .nav-link:hover {
+                    color: #007bff !important;
+                }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+        }
+
+        footer {
+            margin-top: 2rem;
+            color: #6c757d;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: #007bff !important;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            @Html.ActionLink("🏡 Tiny House", "Index", "Home", null, new { @class = "navbar-brand" })
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Menüyü Aç">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">@Html.ActionLink("Ana Sayfa", "Index", "Home", null, new { @class = "nav-link" })</li>
+
+                    @if (Session["RolID"]?.ToString() == "2")
+                    {
+                        <li class="nav-item">@Html.ActionLink("İlanlarım", "Listele", "TinyHouse", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Rezervasyon Talepleri", "GelenTalepler", "Rezervasyon", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Takvim", "Takvim", "Rezervasyon", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Ödemeler", "Odemeler", "Admin", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Gelen Yorumlar", "GelenYorumlar", "Yorum", null, new { @class = "nav-link" })</li>
+                    }
+
+                    @if (Session["RolID"]?.ToString() == "3")
+                    {
+                        <li class="nav-item">@Html.ActionLink("Ev Ara", "Ara", "TinyHouse", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Rezervasyonlarım", "BenimRezervasyonlarim", "Rezervasyon", null, new { @class = "nav-link" })</li>
+                    }
+
+                    @if (Session["RolID"]?.ToString() == "1")
+                    {
+                        <li class="nav-item">@Html.ActionLink("Kullanıcılar", "Kullanicilar", "Admin", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Kontrol Paneli", "Dashboard", "Admin", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Rezervasyonlar", "Rezervasyonlar", "Admin", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("İlanlar", "Ilanlar", "Admin", null, new { @class = "nav-link" })</li>
+                        <li class="nav-item">@Html.ActionLink("Ödemeler", "Odemeler", "Admin", null, new { @class = "nav-link" })</li>
+                    }
+                </ul>
+
+                @if (Session["KullaniciID"] != null)
+                {
+                    <form method="post" action="@Url.Action("Cikis", "Kullanici")" class="d-flex">
+                        <button class="btn btn-outline-danger btn-sm" type="submit">
+                            <i class="fas fa-sign-out-alt"></i> Çıkış Yap
+                        </button>
+                    </form>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <main class="container flex-grow-1 py-4">
+        @RenderBody()
+        <hr />
+        <footer class="text-center">
+            <small class="text-muted">&copy; @DateTime.Now.Year - Tiny House Rezervasyon Sistemi</small>
+        </footer>
+    </main>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

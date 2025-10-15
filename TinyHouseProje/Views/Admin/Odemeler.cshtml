@@ -1,0 +1,62 @@
+﻿@model List<TinyHouseProje.Models.OdemeViewModel>
+@{
+    ViewBag.Title = "Tüm Ödemeler";
+}
+
+<h2>💳 Tüm Ödeme Kayıtları</h2>
+
+<!-- Tarih aralığı filtreleme formu -->
+<form method="get" class="row mb-4">
+    <div class="col-md-3">
+        <label>Başlangıç Tarihi</label>
+        <input type="date" name="baslangic" value="@ViewBag.Baslangic" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label>Bitiş Tarihi</label>
+        <input type="date" name="bitis" value="@ViewBag.Bitis" class="form-control" />
+    </div>
+    <div class="col-md-2 align-self-end">
+        <button type="submit" class="btn btn-primary">Filtrele</button>
+    </div>
+    <div class="col-md-4 text-end align-self-end">
+        <a href="@Url.Action("GelirRaporuExcel", "Admin", new { baslangic = ViewBag.Baslangic, bitis = ViewBag.Bitis })" class="btn btn-success me-2">📊 Excel</a>
+        <a href="@Url.Action("GelirRaporuPDF", "Admin", new { baslangic = ViewBag.Baslangic, bitis = ViewBag.Bitis })" class="btn btn-danger">📄 PDF</a>
+    </div>
+</form>
+
+@if (Model.Count == 0)
+{
+    <div class="alert alert-warning">Bu tarih aralığında ödeme bulunamadı.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Ev</th>
+                <th>Kullanıcı</th>
+                <th>Rezervasyon</th>
+                <th>Tutar (₺)</th>
+                <th>Ödeme Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var odeme in Model)
+            {
+                <tr>
+                    <td>@odeme.OdemeID</td>
+                    <td>@odeme.EvBasligi</td>
+                    <td>@odeme.KiraciAdi</td>
+                    <td>@odeme.Baslangic.ToShortDateString() - @odeme.Bitis.ToShortDateString()</td>
+                    <td>@odeme.Tutar.ToString("N2")</td>
+                    <td>@odeme.OdemeTarihi.ToString("dd.MM.yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="alert alert-info text-end fw-bold">
+        Toplam Kazanç: @ViewBag.ToplamKazanc.ToString("C2")
+    </div>
+}

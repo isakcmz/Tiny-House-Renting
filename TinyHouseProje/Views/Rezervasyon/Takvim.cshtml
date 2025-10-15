@@ -1,0 +1,44 @@
+﻿@model List<Tuple<TinyHouseProje.Models.Rezervasyon, string>>
+
+@{
+    ViewBag.Title = "Rezervasyon Takvimi (Onaylanmışlar)";
+}
+
+<h2 class="mb-4"><i class="fas fa-calendar-check text-primary"></i> Rezervasyon Takvimi</h2>
+
+@if (Model.Count == 0)
+{
+    <div class="alert alert-info">Henüz onaylanmış rezervasyon yok.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var item in Model)
+        {
+            var rezerv = item.Item1;
+            var evBaslik = item.Item2;
+
+            <div class="col">
+                <div class="card shadow border-primary">
+                    <div class="card-header bg-primary text-white">
+                        <i class="fas fa-home me-1"></i> @evBaslik
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-calendar-alt text-secondary"></i>
+                            <strong>@rezerv.BaslangicTarihi.ToShortDateString()</strong> →
+                            <strong>@rezerv.BitisTarihi.ToShortDateString()</strong>
+                        </p>
+                        <p>
+                            <i class="fas fa-receipt text-secondary"></i>
+                            <strong>Rezervasyon No:</strong> @rezerv.RezervasyonID
+                        </p>
+                        <p>
+                            <i class="fas fa-check-circle text-success"></i> Onaylı
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

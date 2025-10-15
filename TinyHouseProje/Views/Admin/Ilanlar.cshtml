@@ -1,0 +1,40 @@
+﻿@model List<TinyHouseProje.Models.TinyHouse>
+@{
+    ViewBag.Title = "İlan Yönetimi";
+}
+
+<h2>🏠 Tüm İlanlar</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Ev Sahibi</th>
+            <th>Konum</th>
+            <th>Fiyat</th>
+            <th>Uygunluk</th>
+            <th>Durum</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ilan in Model)
+        {
+            <tr>
+                <td>@ilan.Baslik</td>
+                <td>@ilan.SahipAdSoyad</td>
+                <td>@ilan.Konum</td>
+                <td>@ilan.Fiyat.ToString("N2") ₺</td>
+                <td>
+                    @(ilan.UygunlukBaslangic.HasValue ? ilan.UygunlukBaslangic.Value.ToShortDateString() : "-")
+                    -
+                    @(ilan.UygunlukBitis.HasValue ? ilan.UygunlukBitis.Value.ToShortDateString() : "-")
+                </td>
+                <td>@(ilan.Durum ? "Aktif" : "Pasif")</td>
+                <td>
+                    @Html.ActionLink("Sil", "IlanSil", "Admin", new { id = ilan.EvID }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

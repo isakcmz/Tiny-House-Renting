@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Yorum Yap";
+}
+
+<h2>Yorum Yap</h2>
+
+<form method="post" action="/Yorum/Ekle/@ViewBag.RezervasyonID">
+    <input type="hidden" name="rezervasyonId" value="@ViewBag.RezervasyonID" />
+    <input type="hidden" name="puan" id="puanDegeri" value="0" />
+
+    <div class="form-group">
+        <label>Puanınız:</label><br />
+        <div id="yildizlar" style="font-size: 2em;">
+            @for (int i = 1; i <= 5; i++)
+            {
+                <span class="yildiz" data-deger="@i" style="cursor: pointer;">☆</span>
+            }
+        </div>
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Yorum:</label>
+        <textarea class="form-control" name="yorumMetni" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gönder</button>
+</form>
+
+<style>
+    .yildiz {
+        color: gray;
+        transition: color 0.2s;
+    }
+
+        .yildiz.secilmis {
+            color: gold;
+        }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const yildizlar = document.querySelectorAll('.yildiz');
+        const puanInput = document.getElementById('puanDegeri');
+
+        yildizlar.forEach(function (yildiz) {
+            yildiz.addEventListener('click', function () {
+                const deger = parseInt(this.getAttribute('data-deger'));
+                puanInput.value = deger;
+
+                yildizlar.forEach(function (s, index) {
+                    if (index < deger) {
+                        s.classList.add('secilmis');
+                        s.textContent = '★';
+                    } else {
+                        s.classList.remove('secilmis');
+                        s.textContent = '☆';
+                    }
+                });
+            });
+        });
+    });
+</script>

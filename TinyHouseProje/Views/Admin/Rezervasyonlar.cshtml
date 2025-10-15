@@ -1,0 +1,57 @@
+﻿@model List<Tuple<TinyHouseProje.Models.Rezervasyon, string, string>>
+@{
+    ViewBag.Title = "Tüm Rezervasyonlar";
+}
+<h2>📋 Tüm Rezervasyonlar</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Ev</th>
+            <th>Kiracı</th>
+            <th>Başlangıç</th>
+            <th>Bitiş</th>
+            <th>Ödeme</th>
+            <th>Onay</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var r = item.Item1;
+            var kiraci = item.Item2;
+            var ev = item.Item3;
+
+            <tr>
+                <td>@ev</td>
+                <td>@kiraci</td>
+                <td>@r.BaslangicTarihi.ToShortDateString()</td>
+                <td>@r.BitisTarihi.ToShortDateString()</td>
+                <td>
+                    @if (r.OdemeDurumu)
+                    {
+                        <span class="badge bg-success">Ödendi</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Ödenmedi</span>
+                    }
+                </td>
+                <td>
+                    @if (r.OnayDurumu)
+                    {
+                        <span class="badge bg-success">Onaylı</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning">Bekliyor</span>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("❌ İptal Et", "RezervasyonIptal", "Admin", new { id = r.RezervasyonID }, new { @class = "btn btn-danger btn-sm" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,51 @@
+﻿@model TinyHouseProje.Models.TinyHouse
+@{
+    ViewBag.Title = "İlan Düzenle";
+}
+
+<h2>İlan Düzenle</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.EvID)
+
+    <div class="form-group">
+        <label>Başlık</label>
+        @Html.TextBoxFor(m => m.Baslik, new { @class = "form-control", required = "required" })
+    </div>
+
+    <div class="form-group">
+        <label>Açıklama</label>
+        @Html.TextAreaFor(m => m.Aciklama, new { @class = "form-control", rows = 3, required = "required" })
+    </div>
+
+    <div class="form-group">
+        <label>Konum</label>
+        @Html.TextBoxFor(m => m.Konum, new { @class = "form-control", required = "required" })
+    </div>
+
+    <div class="form-group">
+        <label>Fiyat</label>
+        @Html.TextBoxFor(m => m.Fiyat, new { @class = "form-control", required = "required", type = "number", step = "0.01" })
+    </div>
+
+    <div class="form-group">
+        <label>Uygunluk Başlangıç</label>
+        @Html.TextBoxFor(m => m.UygunlukBaslangic, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        <label>Uygunluk Bitiş</label>
+        @Html.TextBoxFor(m => m.UygunlukBitis, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        <label>Durum</label>
+        @Html.DropDownListFor(m => m.Durum, new SelectList(new[] {
+            new { Value = true, Text = "Aktif" },
+            new { Value = false, Text = "Pasif" }
+        }, "Value", "Text", Model.Durum), new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Güncelle</button>
+}

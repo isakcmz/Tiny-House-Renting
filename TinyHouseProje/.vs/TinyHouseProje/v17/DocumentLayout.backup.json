@@ -1,0 +1,568 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|c:\\users\\159fu\\onedrive\\masa\u00FCst\u00FC\\ders projeleri\\veritaban\u0131 sistemlerine giri\u015F projesi\\tinyhouseproje\\controllers\\rezervasyoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\rezervasyoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\dal\\rezervasyondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:dal\\rezervasyondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\controllers\\tinyhousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\tinyhousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\controllers\\yorumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\yorumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\rezervasyon\\benimrezervasyonlarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\rezervasyon\\benimrezervasyonlarim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\dal\\kullanicidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:dal\\kullanicidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\dal\\mailgonderici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:dal\\mailgonderici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\dal\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:dal\\veritabani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\kullanici\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\kullanici\\kayit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\kullanici\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\kullanici\\giris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\tinyhouse\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\tinyhouse\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\admin\\odemeler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\admin\\odemeler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\yorum\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\yorum\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\yorum\\gelenyorumlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\yorum\\gelenyorumlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\tinyhouse\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\tinyhouse\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\rezervasyon\\gelentalepler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\rezervasyon\\gelentalepler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\models\\rezervasyon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:models\\rezervasyon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\rezervasyon\\takvim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\rezervasyon\\takvim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\tinyhouse\\listele.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\tinyhouse\\listele.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\admin\\rezervasyonlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\admin\\rezervasyonlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\admin\\ilanlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\admin\\ilanlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\tinyhouse\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\tinyhouse\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\models\\tinyhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:models\\tinyhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\rezervasyon\\rezervasyon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\rezervasyon\\rezervasyon.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\tinyhouse\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\tinyhouse\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\views\\yorum\\cevapla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:views\\yorum\\cevapla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\models\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA882A67-DECF-4D49-BFFC-309B33564E85}|TinyHouseProje.csproj|solutionrelative:models\\yorum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 27,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MailGonderici.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\MailGonderici.cs",
+              "RelativeDocumentMoniker": "DAL\\MailGonderici.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\MailGonderici.cs",
+              "RelativeToolTip": "DAL\\MailGonderici.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T18:39:30.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T14:55:26.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Kayit.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Kullanici\\Kayit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Kayit.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Kullanici\\Kayit.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Kayit.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T13:41:44.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Giris.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Kullanici\\Giris.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Giris.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Kullanici\\Giris.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Giris.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T13:41:21.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KullaniciDAL.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\KullaniciDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\KullaniciDAL.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\KullaniciDAL.cs",
+              "RelativeToolTip": "DAL\\KullaniciDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:46:46.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Veritabani.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\Veritabani.cs",
+              "RelativeDocumentMoniker": "DAL\\Veritabani.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\Veritabani.cs",
+              "RelativeToolTip": "DAL\\Veritabani.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:46:43.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RezervasyonDAL.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\RezervasyonDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\RezervasyonDAL.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\DAL\\RezervasyonDAL.cs",
+              "RelativeToolTip": "DAL\\RezervasyonDAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:45:54.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Odemeler.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Odemeler.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Odemeler.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Odemeler.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Odemeler.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T14:25:31.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Takvim.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\Takvim.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\Takvim.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\Takvim.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\Takvim.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T13:28:09.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Rezervasyon.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\Rezervasyon.cs",
+              "RelativeDocumentMoniker": "Models\\Rezervasyon.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\Rezervasyon.cs",
+              "RelativeToolTip": "Models\\Rezervasyon.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:03:31.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GelenTalepler.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\GelenTalepler.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\GelenTalepler.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\GelenTalepler.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\GelenTalepler.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T12:49:57.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TinyHouse\\Duzenle.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Duzenle.cshtml",
+              "RelativeToolTip": "Views\\TinyHouse\\Duzenle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T12:45:22.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:38:38.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Listele.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Listele.cshtml",
+              "RelativeDocumentMoniker": "Views\\TinyHouse\\Listele.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Listele.cshtml",
+              "RelativeToolTip": "Views\\TinyHouse\\Listele.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:16:51.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\TinyHouse\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\TinyHouse\\Ekle.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T19:16:46.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Ilanlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Ilanlar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Ilanlar.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Ilanlar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Ilanlar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T18:08:07.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Rezervasyonlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Rezervasyonlar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Rezervasyonlar.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Rezervasyonlar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Rezervasyonlar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T17:51:32.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Kullanicilar.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Kullanicilar.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Kullanicilar.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T17:36:57.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwEMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:32:04.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:32:01.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAIwK0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:31:52.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ara.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Ara.cshtml",
+              "RelativeDocumentMoniker": "Views\\TinyHouse\\Ara.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Ara.cshtml",
+              "RelativeToolTip": "Views\\TinyHouse\\Ara.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBkAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:58:58.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Detay.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Detay.cshtml",
+              "RelativeDocumentMoniker": "Views\\TinyHouse\\Detay.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\TinyHouse\\Detay.cshtml",
+              "RelativeToolTip": "Views\\TinyHouse\\Detay.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:55:32.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TinyHouseController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\TinyHouseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TinyHouseController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\TinyHouseController.cs",
+              "RelativeToolTip": "Controllers\\TinyHouseController.cs",
+              "ViewState": "AgIAAGYBAAAAAAAAAADwv6AAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:54:56.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:42:25.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Rezervasyon.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\Rezervasyon.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\Rezervasyon.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\Rezervasyon.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\Rezervasyon.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:25:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BenimRezervasyonlarim.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\BenimRezervasyonlarim.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\BenimRezervasyonlarim.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Rezervasyon\\BenimRezervasyonlarim.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\BenimRezervasyonlarim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:24:37.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RezervasyonController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\RezervasyonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RezervasyonController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\RezervasyonController.cs",
+              "RelativeToolTip": "Controllers\\RezervasyonController.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAkwFkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:22:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Cevapla.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\Cevapla.cshtml",
+              "RelativeDocumentMoniker": "Views\\Yorum\\Cevapla.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\Cevapla.cshtml",
+              "RelativeToolTip": "Views\\Yorum\\Cevapla.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:10:13.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Yorum\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Yorum\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T14:00:02.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GelenYorumlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\GelenYorumlar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Yorum\\GelenYorumlar.cshtml",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Views\\Yorum\\GelenYorumlar.cshtml",
+              "RelativeToolTip": "Views\\Yorum\\GelenYorumlar.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T13:54:14.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YorumController.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\YorumController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YorumController.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Controllers\\YorumController.cs",
+              "RelativeToolTip": "Controllers\\YorumController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T13:50:42.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Yorum.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\Yorum.cs",
+              "RelativeDocumentMoniker": "Models\\Yorum.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\Yorum.cs",
+              "RelativeToolTip": "Models\\Yorum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:25:59.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TinyHouse.cs",
+              "DocumentMoniker": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\TinyHouse.cs",
+              "RelativeDocumentMoniker": "Models\\TinyHouse.cs",
+              "ToolTip": "C:\\Users\\159fu\\OneDrive\\Masa\u00FCst\u00FC\\Ders Projeleri\\Veritaban\u0131 Sistemlerine Giri\u015F Projesi\\TinyHouseProje\\Models\\TinyHouse.cs",
+              "RelativeToolTip": "Models\\TinyHouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:24:46.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

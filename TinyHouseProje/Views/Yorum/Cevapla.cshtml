@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Yoruma Cevap Ver";
+}
+
+<h2>✍️ Yoruma Cevap Ver</h2>
+
+<form method="post" action="@Url.Action("Cevapla", "Yorum")">
+    <input type="hidden" name="yorumId" value="@ViewBag.YorumID" />
+
+    <div class="form-group">
+        <label for="cevap">Cevabınız:</label>
+        <textarea name="cevap" class="form-control" rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Gönder</button>
+</form>

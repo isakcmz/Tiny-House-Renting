@@ -1,0 +1,61 @@
+﻿@model List<Tuple<TinyHouseProje.Models.Rezervasyon, string, string>>
+
+@{
+    ViewBag.Title = "Rezervasyon Talepleri";
+}
+
+<h2>Gelen Rezervasyon Talepleri</h2>
+
+@if (Model.Count == 0)
+{
+    <p>Henüz bir rezervasyon talebi bulunmamaktadır.</p>
+}
+else
+{
+<table class="table table-bordered">
+    <tr>
+        <th>Ev</th>
+        <th>Kiracı</th>
+        <th>Başlangıç</th>
+        <th>Bitiş</th>
+        <th>Durum</th>
+        <th>İşlem</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        var rezerv = item.Item1;
+        var kiraci = item.Item2;
+        var evBaslik = item.Item3;
+
+        <tr>
+            <td>@evBaslik</td>
+            <td>@kiraci</td>
+            <td>@rezerv.BaslangicTarihi.ToShortDateString()</td>
+            <td>@rezerv.BitisTarihi.ToShortDateString()</td>
+            <td>
+                @if (rezerv.OnayDurumu)
+                {
+                    <span class="text-success">Onaylandı</span>
+                }
+                else
+                {
+                    <span class="text-warning">Bekliyor</span>
+                }
+            </td>
+            <td>
+                @if (!rezerv.OnayDurumu)
+                {
+                    @Html.ActionLink("Onayla", "DurumGuncelle", new { id = rezerv.RezervasyonID, durum = 1 }, new { @class = "btn btn-success btn-sm" })
+                    @Html.ActionLink("Reddet", "DurumGuncelle", new { id = rezerv.RezervasyonID, durum = 0 }, new { @class = "btn btn-danger btn-sm ms-2" })
+                }
+                else
+                {
+                    <i class="fas fa-check text-success"></i>
+                }
+            </td>
+        </tr>
+    }
+
+</table>
+}

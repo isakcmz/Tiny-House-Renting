@@ -1,0 +1,144 @@
+﻿@{
+    ViewBag.Title = "Admin Kontrol Paneli";
+}
+
+<h2>📊 Kontrol Paneli</h2>
+
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3 shadow">
+            <div class="card-header"><i class="fas fa-users"></i> Toplam Kullanıcı</div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.ToplamKullanici</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3 shadow">
+            <div class="card-header"><i class="fas fa-house-user"></i> Aktif İlan</div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.ToplamIlan</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3 shadow">
+            <div class="card-header"><i class="fas fa-calendar-check"></i> Toplam Rezervasyon</div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.ToplamRezervasyon</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-danger mb-3 shadow">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-coins"></i> Toplam Gelir</span>
+                <span class="text-white-50" data-toggle="tooltip" title="Sisteme giren toplam ödeme tutarı">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+            </div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.ToplamGelir.ToString("C2")</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-secondary mb-3 shadow">
+            <div class="card-header"><i class="fas fa-user-plus"></i> Son 7 Günde Katılan</div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.YeniUye</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3 shadow">
+            <div class="card-header"><i class="fas fa-chart-line"></i> Tahmini Aylık Gelir</div>
+            <div class="card-body text-center">
+                <h4 class="card-title">@ViewBag.TahminiGelir.ToString("C2")</h4>
+                <p class="card-text text-white-50">(%60 doluluk oranı ile)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<h3 class="mt-5">Kullanıcı Rolleri Dağılımı</h3>
+<div class="w-50 mb-5">
+    <canvas id="kullaniciGrafik" width="400" height="400"></canvas>
+</div>
+
+<h3 class="mt-5">İlan Durumu Dağılımı</h3>
+<div class="w-50 mb-5">
+    <canvas id="ilanGrafik" width="400" height="400"></canvas>
+</div>
+
+
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Kullanıcı Rolleri Grafiği (renkler eskiye döndürüldü)
+    var ctx = document.getElementById('kullaniciGrafik').getContext('2d');
+    var kullaniciGrafik = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Admin', 'Ev Sahibi', 'Kiracı'],
+            datasets: [{
+                label: 'Kullanıcı Rolleri',
+                data: [@ViewBag.AdminSayisi, @ViewBag.EvSahibiSayisi, @ViewBag.KiraciSayisi],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.7)',   // kırmızımsı
+                    'rgba(54, 162, 235, 0.7)',   // mavimsi
+                    'rgba(75, 192, 192, 0.7)'    // turkuaz
+                ],
+                borderColor: [
+                    'rgba(255, 255, 255, 1)',
+                    'rgba(255, 255, 255, 1)',
+                    'rgba(255, 255, 255, 1)'
+                ],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+
+    // İlan Durumu Grafiği (farklı renkler seçildi)
+    var ilanCtx = document.getElementById('ilanGrafik').getContext('2d');
+    var ilanGrafik = new Chart(ilanCtx, {
+        type: 'pie',
+        data: {
+            labels: ['Aktif', 'Pasif'],
+            datasets: [{
+                data: [@ViewBag.AktifIlan, @ViewBag.PasifIlan],
+                backgroundColor: [
+                    'rgba(0, 200, 83, 0.8)',     // yeşil
+                    'rgba(255, 193, 7, 0.8)'     // kehribar sarı
+                ],
+                borderColor: [
+                    'rgba(255,255,255,1)',
+                    'rgba(255,255,255,1)'
+                ],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+</script>
+
+@section scripts {
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}

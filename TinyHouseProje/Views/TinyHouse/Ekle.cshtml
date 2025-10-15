@@ -1,0 +1,60 @@
+﻿@model TinyHouseProje.Models.TinyHouse
+
+@{
+    ViewBag.Title = "İlan Ekle";
+}
+
+<h2>Tiny House İlanı Ekle</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+{
+    <div>
+        @Html.LabelFor(m => m.Baslik)
+        @Html.TextBoxFor(m => m.Baslik, new { @class = "form-control" })
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.Aciklama)
+        @Html.TextAreaFor(m => m.Aciklama, new { @class = "form-control" })
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.Konum)
+        @Html.TextBoxFor(m => m.Konum, new { @class = "form-control" })
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.Fiyat)
+        @Html.TextBoxFor(m => m.Fiyat, new { @class = "form-control", type = "number", step = "0.01" })
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.UygunlukBaslangic)
+        @Html.TextBoxFor(m => m.UygunlukBaslangic, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.UygunlukBitis)
+        @Html.TextBoxFor(m => m.UygunlukBitis, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div>
+        <label>Görsel Seç</label>
+        <input type="file" name="gorsel" class="form-control" />
+    </div>
+
+
+    <br />
+    <button type="submit" class="btn btn-success">İlanı Kaydet</button>
+}
+
+<br />
+@if (ViewBag.Mesaj != null)
+{
+    <div style="color: green">@ViewBag.Mesaj</div>
+}
+@if (ViewBag.Hata != null)
+{
+    <div style="color: red">@ViewBag.Hata</div>
+}

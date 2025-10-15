@@ -1,0 +1,65 @@
+﻿@model List<TinyHouseProje.Models.Yorum>
+
+@helper YildizGoster(int puan)
+{
+    for (int i = 1; i <= 5; i++)
+    {
+        if (i <= puan)
+        {
+            @:<span style="color: gold; font-size: 1.2em;">★</span>
+        }
+        else
+        {
+            @:<span style="color: lightgray; font-size: 1.2em;">★</span>
+        }
+    }
+}
+
+@{
+    ViewBag.Title = "Gelen Yorumlar";
+}
+
+<h2>📥 Gelen Yorumlar</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Henüz size yapılmış bir yorum bulunmamaktadır.</div>
+}
+else
+{
+    foreach (var y in Model)
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header bg-light">
+                <strong>@y.KiraciAdSoyad</strong> – @y.YorumTarihi.ToShortDateString()
+                <span class="badge badge-success ml-2">Puan: @y.Puan</span>
+                <span class="ml-2">@YildizGoster(y.Puan)</span>
+            </div>
+            <div class="card-body">
+                <p><strong>Ev:</strong> @y.EvBaslik</p>
+                <p><strong>Yorum:</strong> @y.YorumMetni</p>
+
+                @if (!string.IsNullOrEmpty(y.Cevap))
+                {
+                    string cevapTarihiStr = y.CevapTarihi.HasValue ? y.CevapTarihi.Value.ToString("dd.MM.yyyy") : "";
+
+                    <div class="alert alert-info mt-2">
+                        <strong>🗨️ Yanıtınız (@cevapTarihiStr):</strong><br />
+                        @y.Cevap
+                    </div>
+                }
+                else
+                {
+                    <form method="post" action="@Url.Action("Cevapla", "Yorum")">
+                        <input type="hidden" name="yorumId" value="@y.YorumID" />
+                        <div class="form-group">
+                            <label><strong>Cevapla:</strong></label>
+                            <textarea name="cevap" class="form-control" rows="2" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-sm btn-primary">Cevap Gönder</button>
+                    </form>
+                }
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,82 @@
+﻿@model TinyHouseProje.Models.TinyHouse
+@{
+    ViewBag.Title = "İlan Detayı";
+    var gorseller = ViewBag.Gorseller as List<string>;
+    var yorumlar = ViewBag.Yorumlar as List<TinyHouseProje.Models.Yorum>;
+}
+
+<h2>@Model.Baslik</h2>
+
+@if (gorseller != null && gorseller.Count > 0)
+{
+    <div class="mb-3">
+        @foreach (var yol in gorseller)
+        {
+            <img src="@Url.Content(yol)" class="img-thumbnail me-2 mb-2" style="width: 250px;" />
+        }
+    </div>
+}
+else
+{
+    <p><em>Görsel bulunmamaktadır.</em></p>
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Açıklama</th>
+        <td>@Model.Aciklama</td>
+    </tr>
+    <tr>
+        <th>Konum</th>
+        <td>@Model.Konum</td>
+    </tr>
+    <tr>
+        <th>Fiyat</th>
+        <td>@Model.Fiyat ₺</td>
+    </tr>
+    <tr>
+        <th>Uygunluk Tarihleri</th>
+        <td>
+            @(Model.UygunlukBaslangic.HasValue ? Model.UygunlukBaslangic.Value.ToShortDateString() : "-")
+            -
+            @(Model.UygunlukBitis.HasValue ? Model.UygunlukBitis.Value.ToShortDateString() : "-")
+        </td>
+
+    </tr>
+    <tr>
+        <th>Durum</th>
+        <td>@(Model.Durum ? "Aktif" : "Pasif")</td>
+    </tr>
+</table>
+
+
+@if (Session["RolID"] != null && Session["RolID"].ToString() == "3" && Model.Durum)
+{
+    <a href="@Url.Action("Rezervasyon", "Rezervasyon", new { id = Model.EvID })" class="btn btn-success">Rezervasyon Yap</a>
+}
+
+<hr />
+@if (yorumlar != null && yorumlar.Count > 0)
+{
+    <h4 class="mt-4">💬 Yorumlar</h4>
+    foreach (var y in yorumlar) // ❗️@ işareti kaldırıldı
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <strong>@y.KiraciAdSoyad</strong> – @y.YorumTarihi.ToString("dd.MM.yyyy")
+                <span class="ms-3 text-warning">Puan: @y.Puan</span>
+            </div>
+            <div class="card-body">
+                <p>@y.YorumMetni</p>
+                @if (!string.IsNullOrEmpty(y.Cevap))
+                {
+                    <div class="alert alert-info mt-2">
+                        <strong>Ev Sahibi Yanıtı (@(y.CevapTarihi?.ToString("dd.MM.yyyy"))):</strong><br />
+                        @y.Cevap
+                    </div>
+                }
+            </div>
+        </div>
+    }
+}
+

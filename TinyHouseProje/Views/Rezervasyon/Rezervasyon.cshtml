@@ -1,0 +1,64 @@
+﻿@model TinyHouseProje.Models.Rezervasyon
+
+@{
+    ViewBag.Title = "Rezervasyon Yap";
+}
+
+<h2>🏡 Rezervasyon Yap</h2>
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(m => m.EvID)
+
+    <div class="form-group">
+        <label>Başlangıç Tarihi</label>
+        @Html.TextBoxFor(m => m.BaslangicTarihi, new { @class = "form-control", type = "date", required = "required" })
+    </div>
+
+    <div class="form-group">
+        <label>Bitiş Tarihi</label>
+        @Html.TextBoxFor(m => m.BitisTarihi, new { @class = "form-control", type = "date", required = "required" })
+    </div>
+
+    <h4 class="mt-4">💳 Ödeme Bilgileri</h4>
+
+    <div class="form-group">
+        <label>Kart Sahibi Adı</label>
+        @Html.TextBoxFor(m => m.KartSahibi, new { @class = "form-control", required = "required" })
+    </div>
+
+    <div class="form-group">
+        <label>Kart Numarası</label>
+        @Html.TextBoxFor(m => m.KartNo, new { @class = "form-control", required = "required", maxlength = "16", placeholder = "1234 5678 9012 3456" })
+    </div>
+
+    <div class="form-row d-flex gap-3">
+        <div class="form-group col-md-6">
+            <label>Son Kullanma Tarihi</label>
+            @Html.TextBoxFor(m => m.SonKullanmaTarihi, new { @class = "form-control", required = "required", placeholder = "MM/YY" })
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>CVC</label>
+            @Html.TextBoxFor(m => m.CVC, new { @class = "form-control", required = "required", maxlength = "3", placeholder = "123" })
+        </div>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-success">Rezervasyonu Tamamla</button>
+}
+
+<br />
+
+@if (ViewBag.Mesaj != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Mesaj
+    </div>
+}
+@if (ViewBag.Hata != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Hata
+    </div>
+}

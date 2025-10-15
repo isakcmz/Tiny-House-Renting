@@ -1,0 +1,61 @@
+﻿@model List<TinyHouseProje.Models.Kullanici>
+
+@{
+    ViewBag.Title = "Kullanıcı Yönetimi";
+}
+
+<h2>Kullanıcı Listesi</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="arama" value="@ViewBag.Arama" placeholder="İsim, e-posta veya rol girin..." class="form-control w-50 d-inline-block" />
+    <button type="submit" class="btn btn-primary">Ara</button>
+</form>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Ad Soyad</th>
+        <th>E-posta</th>
+        <th>Rol</th>
+        <th>Durum</th>
+        <th>Kayıt Tarihi</th>
+        <th>İşlem</th>
+    </tr>
+
+    @foreach (var k in Model)
+    {
+        <tr>
+            <td>@k.KullaniciID</td>
+            <td>@k.Ad @k.Soyad</td>
+            <td>@k.Eposta</td>
+            <td>
+                @if (k.RolID == 1)
+                {
+                    @:Admin
+                }
+                else if (k.RolID == 2)
+                {
+                    @:Ev Sahibi
+                }
+                else if (k.RolID == 3)
+                {
+                    @:Kiracı
+                }
+            </td>
+
+            <td>@(k.Aktif ? "Aktif" : "Pasif")</td>
+            <td>@k.KayitTarihi.ToShortDateString()</td>
+            <td>
+                @if (k.Aktif)
+                {
+                    @Html.ActionLink("Pasif Yap", "PasifYap", "Admin", new { id = k.KullaniciID }, new { @class = "btn btn-warning btn-sm" })
+                }
+                else
+                {
+                    @Html.ActionLink("Aktif Yap", "AktifYap", "Admin", new { id = k.KullaniciID }, new { @class = "btn btn-success btn-sm" })
+                }
+                @Html.ActionLink("Sil", "Sil", "Admin", new { id = k.KullaniciID }, new { @class = "btn btn-danger btn-sm ms-2" })
+            </td>
+        </tr>
+    }
+</table>
